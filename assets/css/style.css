@@ -1586,6 +1586,7 @@ label {
     background: var(--theme-color);
     color: var(--color-white);
     box-shadow: var(--box-shadow);
+    padding: 11px;
 }
 
 .sidebar-social a:hover {
@@ -2865,7 +2866,8 @@ label {
 
 .counter-area {
     position: relative;
-    background-image: url(../img/shape/02.png);
+/*    background-image: url(../img/shape/02.png);*/
+    background-image: url(../../assets/img/whyattend_bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -5214,7 +5216,7 @@ label {
     position: relative;
     display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: flex-start;
     color: var(--footer-text-color);
     font-size: 16px;
     margin-bottom: 12px;
@@ -5226,6 +5228,7 @@ label {
 }
 
 .footer-contact li i {
+    min-width: 32px;
     width: 32px;
     height: 32px;
     line-height: 32px;
